@@ -1,0 +1,344 @@
+body{
+    background-image: url(./imagen/papel.jpg);
+}
+.volv{
+    position:fixed;
+    color: chartreuse;
+    z-index: 2;
+    text-decoration: none;
+    display: block;
+    background-color: black;
+    width: 60px;
+
+}
+.titul{padding-top: 30px;
+    position:relative;
+    height: 70px;
+    background-image: url(./imagen/textura-papel-arrugado-negro-oscuro-cerca_99266-562.jpg);
+    color: wheat;
+    position: static;
+  text-align: center ;
+  font-size: 35px;
+  font-family: 'halo';
+}
+#logo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(./imagen/logo.png);
+   right: 2px;
+   top: 2px;
+    border-radius: 100%;
+    
+}
+
+#menu{
+    position: relative;
+    height: 40px;
+   
+    
+}
+li{
+
+    width: 200px;
+}
+ul, ol{
+    list-style: none;
+}
+.nav >li{
+    float: left;
+}
+.nav li a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+
+
+}
+.nav li a:hover{
+    background-color:steelblue;
+    
+}
+.nav li ul{
+    display: none;
+    position:absolute; 
+}  
+.nav li:hover > ul{
+    display: block;
+}
+nav{position: relative;
+    top: -39px;
+    border: black 6px dashed;
+    width: 154px;
+    height: 850px;
+    float: right;
+    text-align: center;
+    padding: 20px;
+}
+.portad{
+    width: 150px;
+    height: 211px;
+    background-image: url(./imagen/disimia.jpg);
+    margin-top: 30px;
+}
+.portad2{
+    width: 150px;
+    height: 213px;
+    background-image: url(./imagen/NdD.jpg);
+    margin-top: 30px;
+   
+}
+.portad3{
+    width: 150px;
+    height: 222px;
+    background-image: url(./imagen/pacific-rim-0.jpg);
+    margin-top: 30px;
+   
+}
+.nu{
+    color:white;
+    text-align:left;
+}
+#part1{
+    border: solid white;
+    top: 170px;
+    left: 10px;
+    background-image: url(./imagen/lija.jpg);
+    height:220px ;
+    width: 780px;
+    position: absolute;
+    z-index: -1;
+
+}
+#ladp{
+    margin: 10px;
+    position: relative;
+    background-image: url(./imagen/ladc.jpg);
+    width:143px ;
+    height: 200px;
+    left: 30px;
+}
+#pel2{
+    position: relative;
+    width: 133px;
+    height: 200px;
+    background-image: url(./imagen/halo.jpg);
+left: 220px;
+bottom: 210px;
+}
+#pel3{
+    position:absolute;
+    width: 134px;
+    height: 200px;
+    background-image: url(./imagen/godvskon.jpg);
+    top: 10px;
+    left: 390px;
+
+}
+#pel4{
+width: 143px;
+height: 200px;
+background-image: url(./imagen/kk.jpg);
+top: 10px;
+position: absolute;
+left: 580px;
+}
+#pelicu1{text-align: center;
+    border: white solid;
+    background-image: url(./imagen/cos.jpg) ;
+    filter: brightness(40%);
+    position:absolute ;
+    top: 450px;
+    left: 20px;
+    height: 250px;
+    width:700px ;
+    z-index: -1;
+    color: rgb(255, 255, 255);
+}
+#portada{
+    position:absolute;
+    top: 467px;
+    left: 30px;
+    width: 147px;
+    height: 220px;
+    background-image: url(./imagen/cloros.jpg);
+  filter:brightness(100%);
+  z-index: 1;
+}
+.sipnop{
+    position: relative;
+    float: right;
+    width: 530px;
+    top: 40px;
+    font-size: 19px;
+}
+#seri1{
+    border: white solid;
+    background-image: url(./imagen/lgadoj.jpg) ;
+    filter: brightness(40%);
+    position:absolute ;
+    top: 750px;
+    left: 20px;
+    height: 250px;
+    width:700px ;
+    z-index: -1;
+    color: rgb(170, 217, 245);
+    text-align: center;
+}
+#jupi{
+    color: rgb(208, 255, 0);
+}
+#port2{
+    position:absolute;
+    top:  765px;
+    left: 30px;
+    width: 147px;
+    height: 220px;
+    background-image: url(./imagen/jupiter.jpg);
+  
+}
+
+#ecoj{
+    position:absolute;
+    top:150px;
+    width:200px;
+    height:280px;
+    background-image:url(./imagen/elcos.jpg) ;
+    left:60px;
+}
+.chuki{
+    position:absolute;
+    top: 150px;
+    width:200px;
+    height:280px;
+    background-image:url(./imagen/eee.jpg);
+    left: 300px;
+}
+#IT{
+    position:absolute;
+    top: 150px;
+    width:200px;
+    height:297px;
+    background-image: url(./imagen/IT.jpg);
+    left: 550px;
+}
+#colom{
+    position:absolute;
+    top: 500px;
+    width:200px;
+    height:297px;
+    background-image: url(./imagen/colombia.jpg);
+    left: 60px;
+}
+#pelic1{ 
+    top: 100px;
+    position: absolute;
+    left: 100px;
+     width: 200px;
+  height: 300px;
+    background-image: url(./imagen/pelic1.jpg);
+
+filter: brightness(100%);
+}
+
+#pelic2{ 
+    top: 100px;
+    position:absolute;
+    left: 500px;
+     width: 200px;
+  height: 300px;
+    background-image: url(./imagen/pelic2.jpg);
+}
+#pelic3{ 
+    top: 500px;
+    position: absolute;
+    left: 100px;
+    width: 200px;
+  height: 300px;
+    background-image: url(./imagen/asumadre.jpg);
+}
+#pelic4{
+    position: absolute;
+    left: 500px;
+    top: 500px;
+     width: 200px;
+  height: 300px;
+    background-image: url(./imagen/ted.jpg);
+}
+#accion1{
+    top: 100px;
+    position: absolute;
+    left: 100px;
+    width: 200px;
+    height: 300px;
+    background-image: url(./imagen/accci1.jpg);
+}
+#accion3{
+    top: 100px;
+    position:absolute;
+    left: 500px;
+    width: 200px;
+    height: 300px;
+    background-image: url(./imagen/accion3.jpg);
+}
+#accion4{
+    width: 200px;
+    height: 300px;
+    background-image: url(./imagen/acccion4.jpg);
+    position: absolute;
+    left: 500px;
+    top: 500px;
+}
+
+#laroca{
+    width: 200px;
+    height: 300px;
+    background-image: url(./imagen/laroca2.jpg);
+    top: 500px;
+    position: absolute;
+    left: 100px;
+}
+#fantaci1{
+    position:absolute;
+    top: 100px;
+    left: 70px;
+    width: 200px;
+    height: 300px;
+    background-image: url(./imagen/f1.jpg);
+  
+}
+#fantaci2{
+    position:absolute;
+    top: 100px;
+    left: 500px;
+    width: 200px;
+    height: 300px;
+    background-image: url(./imagen/f2.jpg);
+ 
+}
+#fantaci3{
+    position:absolute;
+    top: 500px;
+    left: 70px;
+    width: 200px;
+    height: 300px;
+    background-image: url(./imagen/f3.jpg);
+   
+}
+#fantaci4{
+    position:absolute;
+    top: 500px;
+    left: 500px;
+    width: 200px;
+    height: 300px;
+    background-image: url(./imagen/f4.jpg);}
+   
+*{   
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'halo';
+    src:  url(imagen/Halo.ttf);}
