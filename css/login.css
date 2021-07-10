@@ -1,0 +1,76 @@
+body{
+background-image: url(../imagen/fondo.png);
+font-family: 'Courier New', Courier, monospace;
+}
+
+.login-logo{
+    width: 330px; ;
+    height: 440px;
+    background:black;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px , 30px;
+}
+.login-logo .peli{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+    left: 35%;
+}
+
+.login-logo h1{
+    margin: 0px auto;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.login-logo label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block; 
+}
+
+.login-logo input {
+    width: 97%;
+    margin-bottom: 20px;
+}
+.login-logo input[type="text"],
+.login-logo input[type="password"]{
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.login-logo input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(238, 238, 33);
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+.login-logo a{
+    color:  gray;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    
+}
+.login-logo a:hover{
+    color:rgb(238, 238, 33) ;
+
+}
